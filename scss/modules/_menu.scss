@@ -1,0 +1,38 @@
+.menu__block{
+    height:80px;
+    width:100%;
+    max-width: 2000px;
+    min-width:1000px;
+    background: #5474fd;
+    text-align: justify;
+    color:#fff;
+    
+
+    .section{
+        height:80px;
+        margin-bottom:0px;
+    }
+
+    &--title{
+     padding-top:10px;
+     font:24px $jos;
+     line-height: 2.6;
+     font-weight: bold;
+    }
+
+    &--nav{
+        padding-top:-40px;
+       margin-left:40%;
+
+        &--list{
+            position: absolute;
+            top:30px;
+            font:14px $aleo;
+            font-weight: 400;
+        }
+    }
+}
+.menu__block--nav--list li{
+    display: inline; 
+    margin-left: 55px; /* Отступ слева */
+}
